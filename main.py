@@ -51,6 +51,33 @@ while contador < 11:
 
     # missao 7: organizando a lista
 
-    numeros = [8, 3, 10, 1, 5]
-    print(numeros.sort())
-    # ???
+lista = [8, 3, 10, 1, 5]
+lista.sort()
+print(lista)
+
+# missao 8: acessando o registro de aluno
+alunos = ("Ana", 'Bruno', 'Carla', 'Daniel', 'Eduardo')
+print(alunos[0])
+print(alunos[-1])
+
+# missao 9:
+
+
+def numero(n):
+    dobro = (n*2)
+    return f'O dobro de {n} é {dobro}'
+
+
+resultado = numero(3)
+print(resultado)
+
+# missao 10:
+
+
+def contar_letras(nome):
+    quantidade = len(nome)
+    return f"O nome {nome} tem {quantidade} letras."
+
+
+resultado = contar_letras('Ana')
+print(resultado)
